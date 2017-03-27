@@ -241,12 +241,12 @@ onsubmit(e) {
 
 We first deconstruct the name, image and blurb strings from the data object on the event, then send these into the ProfileCard.make function that returns the HTML string. This HTML is then inserted into the editor. 
 
-Wrapping up
+### Wrapping up
 That was pretty much it! Run the “yarn run build” script included by the yeoman generator to create a dist directory containing:
 
-plugin.js - the bundled plugin
-plugin.min.js - the bundled minified plugin
-LICENSE - the license file
+* plugin.js - the bundled plugin
+* plugin.min.js - the bundled minified plugin
+* LICENSE - the license file
 
 And you now have a production ready minified build to add to all of your apps using TinyMCE.
 
