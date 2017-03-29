@@ -25,7 +25,7 @@ Setting up
 To make things as easy and fast as possible we will be using the TinyMCE plugin Yeoman generator during the creation of this plugin, so run the following command to make sure you have both installed:
 
 ```sh
-npm install --global yeoman generator-tinymce
+npm install --global yo generator-tinymce
 ```
 
 When that has finished installing you should be able to run `yo tinymce` in your terminal to start the generator. The generator will prompt you with a few different questions and then spit out a bootstrapped setup for us to quickly get started coding our plugin.
